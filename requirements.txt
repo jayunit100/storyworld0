@@ -1,3 +1,1 @@
-python:
-  install:
-    - requirements: requirements.txt
+sphinx_rtd_theme
