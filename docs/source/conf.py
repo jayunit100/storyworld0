@@ -2,6 +2,7 @@
 
 # -- Project information
 
+root_doc="index"
 project = 'Lumache'
 copyright = '2021, Graziella'
 author = 'Graziella'
