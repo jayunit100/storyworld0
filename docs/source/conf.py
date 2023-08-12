@@ -12,6 +12,11 @@ version = '0.1.0'
 # -- General configuration
 
 extensions = [
+    'sphinx.ext.autodoc', 'sphinx.ext.doctest',
+              'sphinx.ext.intersphinx', 'sphinx.ext.todo',
+              'sphinx.ext.ifconfig', 'sphinx.ext.viewcode',
+              'sphinx.ext.inheritance_diagram',
+              'sphinx.ext.autosummary'
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
