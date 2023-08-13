@@ -1,4 +1,4 @@
-Storyworld is a place to learn about mythology, geometry, physics and computer science without an internet connection
+A place to learn about mythology, geometry, physics and computer science without an internet connection
 ===================================
 
 hello
