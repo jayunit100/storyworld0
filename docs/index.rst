@@ -1,7 +1,7 @@
-A place to learn about mythology, geometry, physics and computer science without an internet connection
-===================================
+Geometry, Math, Physics, Mythology
+==================================
 
-hello
+The topics are linked below
 
 .. toctree::
    :maxdepth: 2
