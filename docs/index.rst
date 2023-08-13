@@ -3,4 +3,7 @@ Storyworld is a place to learn about mythology, geometry, physics and computer s
 
 hello
 
+.. toctree::
+   :maxdepth: 2
 
+   usage
