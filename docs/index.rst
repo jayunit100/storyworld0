@@ -1,4 +1,4 @@
-Welcome to Lumache's documentation!
+Storyworld is a place to learn about mythology, geometry, physics and computer science without an internet connection
 ===================================
 
 hello
