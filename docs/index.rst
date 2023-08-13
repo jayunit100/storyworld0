@@ -7,3 +7,7 @@ The topics are linked below
    :maxdepth: 2
 
    programming
+   electricity1
+   mechanics1
+   geometry
+
