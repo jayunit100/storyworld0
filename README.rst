@@ -1,9 +1,2 @@
-Template for the Read the Docs tutorial
-=======================================
-
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+This site is now entirely a wiki.
+Go to https://github.com/jayunit100/storyworld0/wiki.
