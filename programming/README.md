@@ -1,8 +1,27 @@
 # Arrays
 
+## Calculate the right time to buy a stock.
+
+Imagine you needed to buy stocks.  You continually are getting input (via an API call to the "next" function). 
+
+## Problem Definition
+
+We continually provide new stocks to an object... A continual stream of stock prices.
+- Calls to the "next(price)" add a new stock
+- Calling "buyOrSell" returns wether to sell (-1) or buy (+1)
+
+Input: [1, 2, 3, 4]
+Output: [24, 12, 8, 6]
+
+## Product Except Self: Calculate an output array such that output[i] is equal to the product of all the elements of the array except arr[i].
+Input: [1, 2, 3, 4]
+Output: [24, 12, 8, 6]
+
+
 ## Two Sum: Find indices that add up to a target.
-Input: [2, 7, 11, 15], target=9
-Output: [0, 1]
+
+Input: `[2, 7, 11, 15]`, `target=9`
+Output: `[0, 1]`
 
 ## Maximum Subarray: Find the largest sum of a contiguous subarray.
 Input: [-2, 1, -3, 4, -1, 2, 1, -5, 4]
@@ -12,15 +31,13 @@ Output: 6
 Input: [1, 2, 3, 1], k=3
 Output: True
 
-## Product Except Self: Calculate an output array such that output[i] is equal to the product of all the elements of the array except arr[i].
-Input: [1, 2, 3, 4]
-Output: [24, 12, 8, 6]
 
 ## Rotate Array: Rotate the array to the right by k steps.
 Input: [1, 2, 3, 4, 5, 6, 7], k=3
 Output: [5, 6, 7, 1, 2, 3, 4]
 
 # Dynamic Programming
+
 ## Climbing Stairs: Count ways to climb n stairs.
 
 Input: n=2
