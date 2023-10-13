@@ -31,8 +31,8 @@ class Solution:
 
         while i < j:
             print(i,j)
-            # calculate first ! otherwise we'll miss this I value...
-            v = min(height[i], height[j]) * (abs(j-i)+1)
+            ### Remember that # of bins = # of bars... 
+            v = min(height[i], height[j]) * (abs(j-i))
             if v > vm:
                 vm=v
                 im = i
@@ -50,7 +50,8 @@ class Solution:
 class TestFloodedWorld(unittest.TestCase):
     def test_1(self):
         sol = Solution()
-        self.assertEqual(6,sol.maxArea([3,3,1]))
+        self.assertEqual(9, sol.maxArea([9,9,1,1]))
+        self.assertEqual(49, sol.maxArea([1,8,6,2,5,4,8,3,7]))
 
 if __name__ == "__main__":
     unittest.main()
